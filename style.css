@@ -1,0 +1,283 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    background-color: rgb(46, 46, 46);
+    align-items: center;
+}
+.option-icon-container {
+    padding: 15px;
+    
+}
+.option-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.option-icon > div {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.title-container {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 15px;
+}
+.title {
+    padding: 10px;
+    font-weight: 700;        
+}
+nav > .navigations > a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+}
+main.cover {
+    display: flex;
+    background-color: black;
+    padding: 200px 100px;
+}
+.brand-container > h1 {
+    text-align: center;
+    font-size: 130px;
+}
+.brand-container > h1 > span {
+    display: flex;
+    flex-direction: column;
+}
+.brand-container > p {
+    text-align: center;
+    letter-spacing: 3px;
+}
+.offers {
+    margin: 10px;
+    background-color: gray;
+}
+.offers-container {
+    display: flex;
+    justify-content: center;
+    /* gap: 5em; */
+}
+.offers-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
+    width: 300px;
+    height: 500px;
+    padding: 0px 40px;
+    border-right: 1px solid rgb(94, 94, 94);   
+}
+.offers-container > div:last-child {
+    border-right: 0px;
+}
+.offers-container > div > .shape {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 50px;
+}
+.offer-title {
+    font-size: 28px;
+    color: rgb(0, 95, 184);
+    font-weight: bold;
+}
+.btn > a{
+    text-decoration: none;
+    color: rgb(0, 95, 184);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.shop-btn {
+    margin: 30px;
+    text-align: center;
+    
+}
+.shop-btn > a {
+    text-decoration: none;
+    background-color: rgb(0, 95, 184);
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.overlay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 650px;
+
+}
+.overlay-content {
+    display: flex;
+    justify-content: center;
+}
+.overlay-content > div {
+    width: 680px;
+    height: 800px;
+}
+.overlay-content p {
+    text-align: center;
+    padding: 30px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 211, 211);
+    align-items: center;
+}
+.left > p.sub-title {
+    font-size: 14px;
+    padding: 90px 5px 20px 5px;
+}
+.left > p.title {
+    font-size: 30px;
+    color: rgb(0, 95, 184);
+    padding-bottom: 20px;
+}
+.left > p {
+    color: black;
+    padding: 0px;
+    
+}
+.left > p.content {
+    padding: 0px 30px;
+    font-size: 18px;
+}
+.pricing > span, .pricing > span > del {
+    color: black;
+    font-size: 24px;
+    padding: 5px;
+}
+.pricing {
+    display: flex;
+    /* color: black; */
+    padding: 30px;
+    align-items: center;
+}
+.pricing > span.disc-price {
+    color: rgb(0, 95, 184);
+    font-weight: 600;
+    font-size: 30px;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+}
+.boxes-container {
+    display: flex;
+    gap: 1em;
+}
+.boxes-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    width: 125px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.right > span {
+    font-size: 200px;
+    color: rgb(0, 95, 184);
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.black-end {
+    width:1360px;
+    height: 250px;
+    background-color: black;
+    margin-bottom: -80px;
+}
+footer {
+    display: flex;
+    border: 1px solid black;
+}
+.footer-container {
+    display: flex;
+}
+footer {
+    height: 500px;
+    background-color: rgb(51, 51, 51);
+}
+footer > div.footer-container {
+    margin: 0px 250px;
+    width: 80%;
+    height: 300px;
+}
+.list-holder {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3em;
+}
+.display-list {
+    padding: 150px 10px;
+}
+ul > li {
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+}
+.list-title {
+    color: rgb(0, 95, 184);
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 150px 10px;
+    margin-left: 30px;
+}
+.social-media-shapes {
+    display: flex;
+    gap: 1em;
+}
+.social-media-shapes > div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+
+}
+.shape-field {
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(114, 114, 114);
+    border-radius: 50px;
+}
+.side > span {
+    padding-top: 10px;
+    color: rgb(0, 95, 184);
+}
+.news-btn {
+    padding-top: 10px;
+}
+.news-btn > a {
+    background-color: rgb(0, 95, 184);
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 12px;
+}
